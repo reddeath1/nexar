@@ -1,0 +1,17 @@
+{
+  "name": "nexar",
+  "version": "1.0.0",
+  "description": "Administration system software for all demands",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "nexar"
+  ],
+  "author": "Frank Galos <frankslayer1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.2"
+  }
+}
