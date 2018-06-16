@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron main.js"
   },
+  "repository": "https://github.com/reddeath1/nexar.git",
   "keywords": [
     "nexar"
   ],
