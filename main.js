@@ -6,10 +6,9 @@ app.on('ready',()=>{
     let win = new BrowserWindow({
         width: 800,
         height: 600,
-        icon: path.join(__dirname, '/images/logos/logo.ico'),
-        titleBarStyle: 'hidden'
+        icon: path.join(__dirname, '/images/logos/logo.ico')
     })
-    
-    //win.loadURL(`file://${__dirname}/index.html`)
+    win.setMenu(null)
+    win.loadURL(`file://${__dirname}/index.html`)
     win.show()
 });

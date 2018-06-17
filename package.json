@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron main.js",
     "script":"",
-    "build":"electron-packager . nexar"
+    "build":"electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=images/logos/logo.ico --asar=true --overwrite"
   },
   "repository": "https://github.com/reddeath1/nexar.git",
   "keywords": [
