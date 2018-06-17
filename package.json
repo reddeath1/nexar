@@ -4,7 +4,9 @@
   "description": "Administration system software for all demands",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "script":"",
+    "build":"electron-packager . nexar"
   },
   "repository": "https://github.com/reddeath1/nexar.git",
   "keywords": [
@@ -14,5 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^2.0.2"
+  },
+  "devDependencies": {
+    "asar": "^0.14.3",
+    "electron-packager": "^12.1.0"
   }
 }
