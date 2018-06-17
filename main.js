@@ -4,10 +4,8 @@ const {app, BrowserWindow} = electron
 
 app.on('ready',()=>{
     let win = new BrowserWindow({
-        width: 1281,
-        height: 800,
-        minWidth: 800,
-        minHeight: 600,
+        width: 800,
+        height: 600,
         icon: path.join(__dirname, '/images/logos/logo.ico'),
         titleBarStyle: 'hidden'
     })
