@@ -281,15 +281,15 @@ bin-release/
 [_@]*
 
 # ignore compilation output of ModelSim
-*.mti
-*.dat
-*.dbs
-*.psm
-*.bak
-*.cmp
-*.jpg
-*.html
-*.bsf
+#*.mti
+#*.dat
+#*.dbs
+#*.psm
+#*.bak
+#*.cmp
+#*.jpg
+#*.html
+#*.bsf
 
 # ignore simulation output of ModelSim
 wlf*
