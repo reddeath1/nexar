@@ -2,15 +2,17 @@
   "name": "nexar",
   "version": "1.0.0",
   "description": "Administration system software for all demands",
-  "main": "main.js",
+  "main": "lib/main",
+  "types":"lib/main",
   "scripts": {
     "start": "electron main.js",
-    "script":"",
-    "build":"electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=images/logos/logo.ico --asar=true --overwrite"
+    "script": "",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "build": "electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=images/logos/logo.ico --asar=true --overwrite"
   },
-  "repository": "https://github.com/reddeath1/nexar.git",
+  "repository": "https://github.com/reddeath1/cectron.git",
   "keywords": [
-    "nexar"
+    "cectron"
   ],
   "author": "Frank Galos <frankslayer1@gmail.com>",
   "license": "MIT",
@@ -18,7 +20,11 @@
     "electron": "^2.0.2"
   },
   "devDependencies": {
+    "@types/node": "^10.3.4",
     "asar": "^0.14.3",
-    "electron-packager": "^12.1.0"
+    "electron-packager": "^12.1.0",
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2"
   }
 }
