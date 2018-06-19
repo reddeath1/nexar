@@ -1,18 +1,9 @@
-function restart(id_) {
-    var b_ = document.getElementById(id_);
-    b_.className = " ";
-    setTimeout(function(){
-        b_.className = "anim";
-    }, 10);
-
-}
-
-window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/60)}}();
+window.requestAnimFrame=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(a){window.setTimeout(a,1E3/80)}}();
 
 var c = document.getElementById('c');
 var ctx = c.getContext('2d');
 var cw = c.width = window.innerWidth;
-var ch = c.height = window.innerHeight*.7;
+var ch = c.height = window.innerHeight;
 var rand = function(a,b){return ~~((Math.random()*(b-a+1))+a);}
 
 updateAll = function(a){
@@ -34,7 +25,7 @@ var stars = [];
 Star = function(x, y, radius, speed){
     this.x = x;
     this.y = y;
-    this.speed = (speed/25);
+    this.speed = (speed/45);
     this.radius = radius;
     this.saturation = (20+(this.radius)*5);
     this.lightness = (8+this.radius*4);
@@ -52,7 +43,7 @@ Star.prototype = {
         ctx.beginPath();
         ctx.arc(this.x, this.y, (this.radius < 0) ? 0 : this.radius, 0, Math.PI *2, false);
         var flickerAdd = (rand(0, 140) === 0) ? rand(5, 20) : 0;
-        ctx.fillStyle = 'hsl(355, '+this.saturation+'%, '+(this.lightness+flickerAdd)+'%)';
+        ctx.fillStyle = '#9E2555';
         ctx.fill();
     }
 }
@@ -72,12 +63,12 @@ makeStarfield = function(){
     }
 }
 
-var loop = function(){
-    window.requestAnimFrame(loop);
-    updateAll(stars);
+var makeSplash = function(){
+    window.requestAnimFrame(makeSplash);
+    //updateAll(stars);
     ctx.clearRect(0, 0, cw, ch);
     renderAll(stars);
 }
 
-makeStarfield();
-loop();
+//makeStarfield();
+makeSplash();

@@ -1,14 +1,14 @@
 {
-  "name": "nexar",
+  "name": "cectron",
   "version": "1.0.0",
   "description": "Administration system software for all demands",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
     "script":"",
-    "build":"electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=images/logos/logo.ico --asar=true --overwrite"
+    "build":"electron-packager . --out=dist/win --platform=win32 --arch=mx64 --icon=images/logos/logo.ico --asar=true --overwrite"
   },
-  "repository": "https://github.com/reddeath1/nexar.git",
+  "repository": "https://github.com/reddeath1/cectron.git",
   "keywords": [
     "nexar"
   ],
