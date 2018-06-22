@@ -1,9 +1,24 @@
 const electron  = require('electron') ;
 const path = require('path');
+<<<<<<< HEAD
 const {BrowserWindow} = electron;
 const {app} = electron;
 let win,splash;
 
+=======
+const {BrowserWindow,app} = electron;
+let win,splash;
+
+if (process.env.NODE_ENV === 'development') {
+    require('electron-watch')(
+        __dirname,
+        'dev:electron-main',             // npm scripts, means: npm run dev:electron-main
+        path.join(__dirname, './'),      // cwd
+        2000,                            // debounce delay
+    );
+}
+
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 function makeSplash(){
     splash = new BrowserWindow({
         width:500,
@@ -17,14 +32,22 @@ function makeSplash(){
 
     // Open the DevTools.
     //win.webContents.openDevTools();
+<<<<<<< HEAD
 
     console.log(path.join(__dirname,'../splash/main.html'))
+=======
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 }
 
 function mainWindow(){
     win = new BrowserWindow({
         width: 800,
         height: 600,
+<<<<<<< HEAD
+=======
+        minHeight:600,
+        minWidth:800,
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         show:false,
         icon: path.join(__dirname, './images/logos/logo.ico')
     });
@@ -41,12 +64,19 @@ function mainWindow(){
         // Dereference the window object, usually you would store windows
         // in an array if your app supports multi windows, this is the time
         // when you should delete the corresponding element.
+<<<<<<< HEAD
+=======
+        win.destroy();
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         win = null;
     })
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 app.on('ready',()=>{
     makeSplash();
     mainWindow();
@@ -77,5 +107,9 @@ app.on("activate", () => {
     // dock icon is clicked and there are no other windows open.
     if (win === null) {
         mainWindow();
+<<<<<<< HEAD
+=======
+        win.show();
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
     }
 });

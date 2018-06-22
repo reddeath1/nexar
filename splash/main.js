@@ -4,6 +4,7 @@ var c = document.getElementById('c');
 var ctx = c.getContext('2d');
 var cw = c.width = window.innerWidth;
 var ch = c.height = window.innerHeight;
+<<<<<<< HEAD
 var rand = function(a,b){return ~~((Math.random()*(b-a+1))+a);}
 
 updateAll = function(a){
@@ -12,14 +13,11 @@ updateAll = function(a){
         a[i].update(i);
     }
 }
+=======
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 
-renderAll = function(a){
-    var i = a.length;
-    while(i--){
-        a[i].render(i);
-    }
-}
 
+<<<<<<< HEAD
 var stars = [];
 
 Star = function(x, y, radius, speed){
@@ -47,22 +45,24 @@ Star.prototype = {
         ctx.fill();
     }
 }
+=======
+var makeSplash = function(){
+    window.requestAnimFrame(makeSplash);
+    ctx.clearRect(0, 0, cw, ch);
+};
 
-makeStarfield = function(){
-    var base = .75;
-    var inc = .2;
-    var count = 40;
-    var per = 6;
-    while(count--){
-        var radius = base + inc;
-        var perTime = per;
-        while(perTime--){
-            radius += inc;
-            stars.push(new Star(rand(0, cw-radius), rand(0, ch-radius), radius, radius*3));
-        }
-    }
-}
+var makeLoader = function (){
+    document.querySelector('.wrapper').style.display = 'block';
+    document.querySelector('.wrapper').removeClass('waiting');
+    setTimeout(function() {
+        document.querySelector('.wrapper').addClass('waiting')
+    }, 1500);
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 
+    window.requestAnimFrame(makeLoader);
+};
+
+<<<<<<< HEAD
 var makeSplash = function(){
     window.requestAnimFrame(makeSplash);
     //updateAll(stars);
@@ -71,4 +71,10 @@ var makeSplash = function(){
 }
 
 //makeStarfield();
+=======
+setTimeout(function () {
+    makeLoader();
+},2000);
+
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 makeSplash();

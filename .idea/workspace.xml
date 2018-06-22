@@ -2,10 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58694897-be10-4b17-9a02-fb3024212df2" name="Default" comment="adding renaming the repository from nexar to cectron">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/anymatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-diff/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-flatten/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-flatten/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-flatten/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/arr-flatten/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/array-unique/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/array-unique/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/array-unique/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/array-unique/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/async-each/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/async-each/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/async-each/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/async-each/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/async-each/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/binary-extensions/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/braces/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-brackets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/expand-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/extglob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/filename-regex/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/filename-regex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/filename-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/filename-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/fill-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-in/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-in/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-in/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-in/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/for-own/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-base/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-base/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-base/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/glob-parent/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-binary-path/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-buffer/test/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-dotfile/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-dotfile/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-dotfile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-dotfile/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-equal-shallow/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-equal-shallow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-equal-shallow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-equal-shallow/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extendable/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extendable/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extendable/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extendable/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-extglob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-number/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-posix-bracket/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-posix-bracket/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-posix-bracket/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-posix-bracket/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-primitive/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-primitive/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-primitive/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/is-primitive/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isobject/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isobject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isobject/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/isobject/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/kind-of/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/math-random/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/micromatch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/normalize-path/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object.omit/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object.omit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object.omit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/object.omit/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-glob/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-glob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/parse-glob/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/.verb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/preserve/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/node_modules/is-number/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/node_modules/is-number/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/node_modules/is-number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/node_modules/is-number/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/randomatic/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/examples/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/examples/callback-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/examples/grep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/examples/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/examples/stream-api-pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/examples/stream-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/isarray/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/GOVERNANCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/duplex-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/duplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/passthrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/readable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/readable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/writable-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/readable-stream/writable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/node_modules/string_decoder/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/readdirp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/stream-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_dir1/root_dir1_file1.ext1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_dir1/root_dir1_file2.ext2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_dir1/root_dir1_file3.ext3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_dir1/root_dir1_subdir1/root1_dir1_subdir1_file1.ext1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_dir2/root_dir2_file1.ext1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_dir2/root_dir2_file2.ext2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_file1.ext1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_file2.ext2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/bed/root_file3.ext3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/readdirp-stream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/readdirp/test/readdirp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/regex-cache/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/regex-cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/regex-cache/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/regex-cache/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/remove-trailing-separator/history.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/remove-trailing-separator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/remove-trailing-separator/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/remove-trailing-separator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/remove-trailing-separator/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-element/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-element/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-element/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-element/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-string/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-string/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-string/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/repeat-string/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/set-immediate-shim/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/set-immediate-shim/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/set-immediate-shim/readme.md" afterDir="false" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/inspector.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/inspector.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/splash/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/splash/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/splash/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/splash/main.html" afterDir="false" />
@@ -26,6 +268,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="414">
               <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
@@ -38,10 +281,15 @@
                 <element signature="e#636#837#0" expanded="true" />
                 <element signature="e#866#1056#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="100">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="67" selection-end-column="19" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splash/main.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,6 +325,15 @@
                 <element signature="e#1092#1259#0" expanded="true" />
                 <element signature="e#1283#1584#0" expanded="true" />
                 <element signature="e#1614#1933#0" expanded="true" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
               </folding>
             </state>
           </provider>
@@ -94,6 +351,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splash/main.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="157">
               <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
             </state>
@@ -109,6 +367,10 @@
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="225">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
             </state>
           </provider>
         </entry>
@@ -127,6 +389,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.htm</find>
+      <find>letter</find>
+      <find>dia</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,6 +404,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/text" />
         <option value="$PROJECT_DIR$/js/main.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/splash/main.html" />
@@ -147,6 +412,15 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/splash/main.css" />
         <option value="$PROJECT_DIR$/splash/main.js" />
+=======
+        <option value="$PROJECT_DIR$/src/splash.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/splash/main.html" />
+        <option value="$PROJECT_DIR$/splash/main.js" />
+        <option value="$PROJECT_DIR$/splash/main.css" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         <option value="$PROJECT_DIR$/main.js" />
       </list>
     </option>
@@ -160,6 +434,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="1" />
@@ -172,8 +451,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,6 +601,12 @@
       <workItem from="1529355836948" duration="1671000" />
       <workItem from="1529428823877" duration="1556000" />
       <workItem from="1529430460429" duration="11975000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1529505758915" duration="610000" />
+      <workItem from="1529515607514" duration="1368000" />
+      <workItem from="1529560948931" duration="5641000" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
     </task>
     <task id="LOCAL-00001" summary="adding the repository">
       <created>1529229197095</created>
@@ -384,20 +675,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="30022000" />
+=======
+    <option name="totallyTimeSpent" value="37641000" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="Json Parser" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3250825" />
+      <window_info anchor="bottom" id="RNConsole" order="8" weight="0.32838285" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
       <window_info anchor="right" id="Flutter Outline" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info id="Designer" order="2" />
+<<<<<<< HEAD
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -417,9 +723,11 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32995495" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Json Parser" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -436,6 +744,183 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding renaming the repository from nexar to cectron" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/splash/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7751">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6785">
+          <caret line="295" column="5" selection-start-line="295" selection-start-column="5" selection-end-line="295" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7751">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -524,6 +1009,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/splash/main.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="115">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
@@ -556,6 +1042,10 @@
             <element signature="e#1614#1933#0" expanded="true" />
             <element signature="e#1956#2071#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="299">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         </state>
       </provider>
     </entry>
@@ -675,15 +1165,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#171#280#0" expanded="true" />
             <element signature="e#125#358#0" expanded="true" />
             <element signature="e#159#268#0" expanded="true" />
           </folding>
+=======
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
@@ -733,18 +1227,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.css">
+=======
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="174">
+          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/splash.js" />
     <entry file="file://$PROJECT_DIR$/splash/main.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="157">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+=======
+        <state relative-caret-position="425">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splash/text">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="184">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
           <folding>
@@ -756,20 +1263,46 @@
             <element signature="e#1283#1584#0" expanded="true" />
             <element signature="e#1614#1933#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/splash/main.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="184">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+        <state relative-caret-position="675">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -784,6 +1317,19 @@
             <element signature="e#636#837#0" expanded="true" />
             <element signature="e#866#1056#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/splash/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="67" selection-end-column="19" />
+>>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
         </state>
       </provider>
     </entry>
