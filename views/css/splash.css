@@ -404,7 +404,7 @@ loaders
 #logo .symbol > div:nth-child(3) > div {
     top: 1px;
     left: 0px;
-    background-color: #e598ee;
+    background-color: rgb(241, 20, 238);
 }
 #logo .symbol > div:nth-child(4) > div {
     width: 49px;

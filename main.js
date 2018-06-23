@@ -15,16 +15,30 @@ if (process.env.NODE_ENV === 'development') {
 function makeSplash(){
     splash = new BrowserWindow({
         width:500,
+		minWidth:500,
+		maxWidth:500,
+		minHeight:400,
+		maxHeight:400,
         height:400,
         frame:false,
+        show:false,
         transparent: true,
-        icon: path.join(__dirname, './images/logos/logo.ico')
+        icon: path.join(__dirname, './views/images/logos/logo.ico')
     });
 
-    splash.loadURL(path.join(__dirname,'./splash/main.html'));
+    splash.loadURL(path.join(__dirname,'./views/splash.html'));
 
     // Open the DevTools.
-    //win.webContents.openDevTools();
+    //splash.webContents.openDevTools();
+
+    // Emitted when the window is closed.
+    splash.on("closed", () => {
+        // Dereference the window object, usually you would store windows
+        // in an array if your app supports multi windows, this is the time
+        // when you should delete the corresponding element.
+        splash.destroy();
+        splash = null;
+    })
 }
 
 function mainWindow(){
@@ -34,11 +48,12 @@ function mainWindow(){
         minHeight:600,
         minWidth:800,
         show:false,
-        icon: path.join(__dirname, './images/logos/logo.ico')
+        frame:false,
+        icon: path.join(__dirname, './views/images/logos/logo.ico')
     });
 
     win.setMenu(null);
-    win.loadURL(path.join(__dirname, "./index.html"));
+    win.loadURL(path.join(__dirname, "./views/main.html"));
 
 
     // Open the DevTools.
@@ -58,17 +73,15 @@ app.on('ready',()=>{
     makeSplash();
     mainWindow();
 
-    setTimeout(function () {
-        win.once('ready-to-show', () => {
+    win.once('ready-to-show', () => {
+        splash.show();
+        setTimeout(function () {
             splash.destroy();
+            win.maximize();
             win.show();
-        });
-        splash.destroy();
-        win.maximize();
-        win.show();
-    },10000);
+        },4000);
+    });
 });
-
 
 // Quit when all windows are closed.
 app.on("window-all-closed", () => {

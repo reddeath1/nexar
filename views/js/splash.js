@@ -13,9 +13,9 @@ var makeSplash = function(){
 
 var makeLoader = function (){
     document.querySelector('.wrapper').style.display = 'block';
-    document.querySelector('.wrapper').removeClass('waiting');
+    document.querySelector('.wrapper').className.replace(/\bwaiting\b/, "");
     setTimeout(function() {
-        document.querySelector('.wrapper').addClass('waiting')
+        document.querySelector('.wrapper').classList.add('waiting')
     }, 1500);
 
     window.requestAnimFrame(makeLoader);

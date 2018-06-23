@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    float: left;
+    background: #f8f8f8;
+    width: 100%;
+}
+
+header{
+    width: 250px;
+    float: left;
+    height: 100vh;
+    background: #ffffff;
+}
+
+section.main{
+    width: 81.48%;
+    float: right;
+    height: 100%;
+}
