@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="58694897-be10-4b17-9a02-fb3024212df2" name="Default" comment="adding renaming the repository from nexar to cectron">
 <<<<<<< HEAD
 =======
@@ -252,6 +253,11 @@
       <change beforePath="$PROJECT_DIR$/splash/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/splash/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/splash/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/splash/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/splash/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/splash/main.js" afterDir="false" />
+=======
+    <list default="true" id="58694897-be10-4b17-9a02-fb3024212df2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/css/main.css" afterDir="false" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -265,9 +271,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="414">
               <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
@@ -308,10 +315,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="30" />
+=======
+            <state relative-caret-position="234">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="50" selection-end-column="20" />
+              <folding>
+                <element signature="e#169#426#0" />
+                <element signature="n#!!block;n#makeSplash#0" />
+                <element signature="e#1568#1828#0" />
+                <element signature="e#1904#2105#0" />
+                <element signature="e#2134#2343#0" />
+              </folding>
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splash/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -328,36 +347,61 @@
 =======
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
+=======
+      <file leaf-file-name="splash.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/js/splash.js">
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="348">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
+<<<<<<< HEAD
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+                <element signature="e#533#810#0" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="text" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splash/text">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+=======
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/pages/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splash/main.css">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="157">
               <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+=======
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -371,6 +415,13 @@
             <state relative-caret-position="225">
               <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
             </state>
           </provider>
         </entry>
@@ -416,12 +467,21 @@
         <option value="$PROJECT_DIR$/src/splash.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/splash/main.html" />
         <option value="$PROJECT_DIR$/splash/main.js" />
         <option value="$PROJECT_DIR$/splash/main.css" />
+<<<<<<< HEAD
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/modules/pages/footer.js" />
+        <option value="$PROJECT_DIR$/views/splash.html" />
+        <option value="$PROJECT_DIR$/views/js/splash.js" />
+        <option value="$PROJECT_DIR$/views/main.html" />
+        <option value="$PROJECT_DIR$/modules/pages/header.js" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/views/css/main.css" />
       </list>
     </option>
   </component>
@@ -439,13 +499,15 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="1" />
     <option name="width" value="1696" />
     <option name="height" value="1016" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -456,9 +518,12 @@
       <pane id="PackagesPane" />
 =======
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -469,12 +534,39 @@
             <path>
               <item name="cectron" type="b2602c69:ProjectViewProjectNode" />
               <item name="cectron" type="462c0819:PsiDirectoryNode" />
-              <item name="splash" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cectron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cectron" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cectron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cectron" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cectron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cectron" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cectron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cectron" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -494,6 +586,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROJECTS\SOFTWARE\cectron\views" />
+      <recent name="D:\PROJECTS\SOFTWARE\cectron\views\css" />
+      <recent name="D:\PROJECTS\SOFTWARE\cectron\views\js" />
       <recent name="F:\projects\SERVER\SOFTWARE\cectron" />
       <recent name="F:\projects\SERVER\SOFTWARE\nexar\splash" />
     </key>
@@ -605,8 +700,15 @@
 =======
       <workItem from="1529505758915" duration="610000" />
       <workItem from="1529515607514" duration="1368000" />
+<<<<<<< HEAD
       <workItem from="1529560948931" duration="5641000" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+      <workItem from="1529560948931" duration="6501000" />
+      <workItem from="1529600884641" duration="987000" />
+      <workItem from="1529648168646" duration="2531000" />
+      <workItem from="1529739481555" duration="10623000" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
     </task>
     <task id="LOCAL-00001" summary="adding the repository">
       <created>1529229197095</created>
@@ -671,15 +773,33 @@
       <option name="project" value="LOCAL" />
       <updated>1529364156096</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="making changes">
+      <created>1529566920625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529566920625</updated>
+    </task>
+    <task id="LOCAL-00011" summary="reorder the project">
+      <created>1529748851824</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529748851824</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="30022000" />
 =======
     <option name="totallyTimeSpent" value="37641000" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+    <option name="totallyTimeSpent" value="52642000" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -690,10 +810,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3250825" />
+=======
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
       <window_info anchor="bottom" id="RNConsole" order="8" weight="0.32838285" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
       <window_info anchor="right" id="Flutter Outline" order="3" />
@@ -701,9 +824,12 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info id="Designer" order="2" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -714,9 +840,16 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32882884" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32545045" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26528117" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3250825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2912254" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Flutter Inspector" order="3" />
@@ -728,46 +861,28 @@
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="adding the repository" />
     <MESSAGE value="adding the splash screen" />
     <MESSAGE value="adding renaming the repository from nexar to cectron" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding renaming the repository from nexar to cectron" />
+    <MESSAGE value="making changes" />
+    <MESSAGE value="reorder the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorder the project" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/splash/text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2350">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -775,7 +890,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.html">
+    <entry file="file://$PROJECT_DIR$/views/splash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -789,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.js">
+    <entry file="file://$PROJECT_DIR$/views/js/splash.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
@@ -803,20 +918,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.css">
+    <entry file="file://$PROJECT_DIR$/views/css/splash.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.html">
+    <entry file="file://$PROJECT_DIR$/views/splash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
@@ -841,27 +953,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.js">
+    <entry file="file://$PROJECT_DIR$/views/js/splash.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.css">
+    <entry file="file://$PROJECT_DIR$/views/css/splash.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7751">
           <caret line="337" selection-start-line="337" selection-end-line="337" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,7 +988,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.html">
+    <entry file="file://$PROJECT_DIR$/views/splash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
@@ -893,21 +1002,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.js">
+    <entry file="file://$PROJECT_DIR$/views/js/splash.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.css">
+    <entry file="file://$PROJECT_DIR$/views/css/splash.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7751">
           <caret line="337" selection-start-line="337" selection-end-line="337" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -1077,7 +1186,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -1091,7 +1200,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
@@ -1113,7 +1222,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
@@ -1237,8 +1346,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js" />
     <entry file="file://$PROJECT_DIR$/src/splash.js" />
-    <entry file="file://$PROJECT_DIR$/splash/main.js">
+    <entry file="file://$PROJECT_DIR$/splash/text">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="157">
           <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
@@ -1246,11 +1356,16 @@
         <state relative-caret-position="425">
           <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/text">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="184">
           <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
@@ -1266,19 +1381,35 @@
 =======
         <state relative-caret-position="50">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+=======
+        <state relative-caret-position="144">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/modules/pages/footer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/splash.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-125">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+        <state relative-caret-position="225">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splash/main.html">
+    <entry file="file://$PROJECT_DIR$/views/css/splash.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="184">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -1288,20 +1419,29 @@
 =======
         <state relative-caret-position="675">
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+=======
+        <state relative-caret-position="-375">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/js/splash.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="348">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+            <element signature="e#533#810#0" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1319,17 +1459,46 @@
           </folding>
 =======
     <entry file="file://$PROJECT_DIR$/splash/main.css">
+=======
+    <entry file="file://$PROJECT_DIR$/modules/pages/header.js">
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="100">
           <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="67" selection-end-column="19" />
 >>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+=======
+        <state relative-caret-position="234">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="e#169#426#0" />
+            <element signature="n#!!block;n#makeSplash#0" />
+            <element signature="e#1568#1828#0" />
+            <element signature="e#1904#2105#0" />
+            <element signature="e#2134#2343#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+>>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
         </state>
       </provider>
     </entry>
