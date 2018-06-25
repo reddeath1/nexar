@@ -5,14 +5,14 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
-<<<<<<< HEAD
+
     "script":"",
-    "build":"electron-packager . --out=dist/win --platform=win32 --arch=mx64 --icon=images/logos/logo.ico --asar=true --overwrite"
-=======
+    "build":"electron-packager . --out=dist/win --platform=win32 --arch=mx64 --icon=images/logos/logo.ico --asar=true --overwrite",
+
     "script": "",
     "dev:electron-main": "cross-env NODE_ENV='development' electron -r babel-register ./",
     "build": "electron-packager . --out=dist/win --platform=win32 --arch=mx64 --icon=images/logos/logo.ico --asar=true --overwrite"
->>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
+
   },
   "repository": "https://github.com/reddeath1/cectron.git",
   "keywords": [

@@ -10,32 +10,13 @@ html {
 
 body {
     background: #fff;
-<<<<<<< HEAD
-    background-image: linear-gradient(rgba(60, 30, 107, 0.92), rgba(177, 40, 72, 0.92));
-=======
     background-image: linear-gradient(rgba(60, 30, 107, 0.92), rgb(241, 0, 193));
->>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
     -ms-overflow-style: scrollbar;
     -webkit-app-region:drag;
-<<<<<<< HEAD
-}
-
-#light {
-    background: radial-gradient(30% 60%, circle contain, rgba(177, 40, 72, 0.92) 0%, rgba(177, 40, 72, 0.92) 100%);
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    z-index: 7000;
-    width: 100%;
-    -ms-overflow-style: scrollbar;
-    -webkit-app-region:drag;
-=======
->>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 }
 
 .triangle {
@@ -72,17 +53,10 @@ body {
     border-right: 36px rgb(186, 86, 184) solid;
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
-<<<<<<< HEAD
-    left: -36px;
-    top: -36px;
-    z-index: -1;
     #box-shadow: 0px 15px 3px rgba(1,1,1,.2);
-=======
     left: -37px;
     top: -37px;
     z-index: 1;
-    /box-shadow: 0px 15px 3px rgba(1,1,1,.2);
->>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
 }
 .triangle div:last-child {
     border-left: 36px #f7931d solid;
@@ -108,11 +82,7 @@ body {
     border-bottom: 18px solid transparent;
     left: -36px;
     top: -36px;
-<<<<<<< HEAD
-    z-index: -1;
-=======
     z-index: 1;
->>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
     box-shadow: 0px 10px 3px rgba(1,25,1,.1);
 }
 .anim .triangle div:first-child {
@@ -149,11 +119,7 @@ body {
 .dialog {
     text-align: center;
     position: relative;
-<<<<<<< HEAD
-    top: 47%;
-=======
     top: 49%;
->>>>>>> 93610815e43a47a9b527d3f3359705ee97a6c6d5
     width: 100%;
     float: left;
     font-family: 'Roboto Condensed', sans-serif;
