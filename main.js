@@ -1,16 +1,8 @@
 const electron  = require('electron') ;
+const ipc = electron.ipcMain;
 const path = require('path');
 const {BrowserWindow,app} = electron;
 let win,splash;
-
-if (process.env.NODE_ENV === 'development') {
-    require('electron-watch')(
-        __dirname,
-        'dev:electron-main',             // npm scripts, means: npm run dev:electron-main
-        path.join(__dirname, './'),      // cwd
-        2000,                            // debounce delay
-    );
-}
 
 
 function makeSplash(){
@@ -30,11 +22,11 @@ function makeSplash(){
     splash.loadURL(path.join(__dirname,'./views/splash.html'));
 
     // Open the DevTools.
-<<<<<<< HEAD
+
     //win.webContents.openDevTools();
 
     console.log(path.join(__dirname,'../splash/main.html'))
-=======
+
     //splash.webContents.openDevTools();
 
     // Emitted when the window is closed.
@@ -45,7 +37,7 @@ function makeSplash(){
         splash.destroy();
         splash = null;
     })
->>>>>>> 83190a9683d368432d4115bef5fdd65270b2ae98
+
 }
 
 function mainWindow(){

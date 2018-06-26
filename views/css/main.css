@@ -5,8 +5,10 @@
 
 body{
     float: left;
-    background: #ffffff;
+    background:rgba(240,244,246,.4);
     width: 100%;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 header{
@@ -20,5 +22,30 @@ section.main{
     width: 81.48%;
     float: right;
     height: 100vh;
-    background:rgba(240,244,246,.4);
+}
+
+.main-top-header{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background: transparent;
+}
+
+.header-top-content{
+    width: auto;
+    float: right;
+    margin-right: 20px;
+}
+
+.header-top-content > section{
+    width: auto;
+    height: auto;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    transition: .5s linear 0s;
+}
+
+.header-top-content > section:hover{
+    opacity: .4;
 }
