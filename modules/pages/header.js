@@ -15,7 +15,7 @@ class headerUI{
 
     init(){
         let main = document.querySelector('.main'),
-        winIn;
+        winIn,hc = document.querySelector('.header-top-contents');
 
         window.addEventListener('resize',function () {
             winIn = remote.getCurrentWindow();
@@ -23,8 +23,10 @@ class headerUI{
 
             if (!winIn.isMaximized()){
                 main.style.width = 70+"%";
+                hc.style.webkitAppRegion = 'drag';
             }else{
                 main.style.width = 84+"%";
+                hc.style.webkitAppRegion = 'no-drag';
             }
         });
 
@@ -86,7 +88,7 @@ class headerUI{
     }
 
     headerLogoUI(){
-         return "<div class=\"triangle anim\" title='cectron'>" +
+         return "<div class=\"logo\" title='cectron'>" +
              "    <div></div>" +
              "    <div></div>" +
              "</div>";

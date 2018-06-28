@@ -88,10 +88,11 @@ section.main{
 }
 
 .header-top-contents{
-    width: auto;
+    width: 70%;
     float: left;
+    height: 100%;
     font-size: 24px;
-    margin-top: 20px;
+    padding: 20px 0;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -106,37 +107,38 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.triangle {
+.logo {
     position: relative;
     margin: 70px auto;
-    width: 25px;
+    width: 30px;
+    display: block;
     cursor: pointer;
     transition: 1s linear 0s;
     -ms-overflow-style: scrollbar;
     -webkit-app-region:drag;
 }
 
-.triangle:hover{
+.logo:hover{
     opacity: .3;
 }
 
-.triangle div {
+.logo div {
     height: 0;
     width: 0;
     position: relative;
 }
-.triangle div:before, .triangle div:after {
+.logo div:before, .logo div:after {
     content: "";
     display: block;
     position: absolute;
 }
-.triangle div:first-child {
+.logo div:first-child {
     border-left: 25px #b5274a solid;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
     margin-top: 10px;
 }
-.triangle div:first-child:before {
+.logo div:first-child:before {
     border-right: 25px #fe4bad solid;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
@@ -144,7 +146,7 @@ h1,h2,h3,h4,h5,h6{
     top: -12px;
 }
 
-.triangle div:first-child:after {
+.logo div:first-child:after {
     border-right: 25px rgb(186, 86, 184) solid;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
@@ -154,7 +156,7 @@ h1,h2,h3,h4,h5,h6{
     z-index: 1;
 }
 
-.triangle div:last-child {
+.logo div:last-child {
     border-left: 27px #f7931d solid;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
@@ -166,7 +168,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.triangle div:last-child:after {
+.logo div:last-child:after {
     border-right: 27px #ffc000 solid;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
@@ -176,41 +178,10 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 0px 10px 3px rgba(1,25,1,.1);
 }
 
-/*.triangle div:last-child:before {*/
+/*.logo div:last-child:before {*/
     /*border-right: 25px #ee5923 solid;*/
     /*border-top: 10px solid transparent;*/
     /*border-bottom: 10px solid transparent;*/
     /*left: -10px;display: none;*/
     /*top: -10px;*/
 /*}*/
-
-.anim .triangle div:first-child {
-    -webkit-animation: f 1.2s alternate ease-in;
-    -moz-animation: f 1.2s alternate ease-in;
-    animation: f 1.2s alternate ease-in;
-}
-.anim .triangle div:first-child:before {
-    -webkit-animation: fb 1.2s alternate ease-in;
-    -moz-animation: fb 1.2s alternate ease-in;
-    animation: fb 1.2s alternate ease-in;
-}
-.anim .triangle div:first-child:after {
-    -webkit-animation: fa 1.2s alternate ease-in;
-    -moz-animation: fa 1.2s alternate ease-in;
-    animation: fa 1.2s alternate ease-in;
-}
-.anim .triangle div:last-child {
-    -webkit-animation: l 1s alternate ease-out;
-    -moz-animation: l 1s alternate ease-out;
-    animation: l 1s alternate ease-out;
-}
-.anim .triangle div:last-child:before {
-    -webkit-animation: lb 1s alternate ease-out;
-    -moz-animation: lb 1s alternate ease-out;
-    animation: lb 1s alternate ease-out;
-}
-.anim .triangle div:last-child:after {
-    -webkit-animation: la 1s alternate ease-out;
-    -moz-animation: la 1s alternate ease-out;
-    animation: la 1s alternate ease-out;
-}
