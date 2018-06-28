@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 *{
     margin: 0px;
     padding: 0px;
@@ -5,21 +6,31 @@
 
 body{
     float: left;
-    background:rgba(240,244,246,.4);
+    background:rgba(240,244,246,1);
     width: 100%;
     -webkit-user-select: none;
     user-select: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #2f303a;
 }
 
 header{
-    width: 250px;
+    width: 200px;
     float: left;
     height: 100vh;
     background: #ffffff;
 }
 
+.main-header{
+    width: 85%;
+    margin: 30px auto;
+    display: block;
+    height: auto;
+}
+
 section.main{
-    width: 81.48%;
+    width: 84%;
     float: right;
     height: 100vh;
 }
@@ -31,21 +42,175 @@ section.main{
     background: transparent;
 }
 
-.header-top-content{
+.header-top-actions{
     width: auto;
     float: right;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
-.header-top-content > section{
-    width: auto;
-    height: auto;
+.header-top-actions > section{
+    width: 27px;
+    height: 27px;
     float: left;
+    text-align: center;
     cursor: pointer;
-    padding: 10px;
+    background: #e1edf1;
+    color: #c4cfd5;
+    //border:1px solid rgba(100,100,0,.5);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 15px;
+    font-size: 18px;
+    position: relative;
     transition: .5s linear 0s;
 }
 
-.header-top-content > section:hover{
-    opacity: .4;
+.header-top-actions > section.win-minimize:hover{
+     background: #ffc12e;
+    color: #995703;
+}
+
+.header-top-actions > section.win-maximize:hover{
+    background: #29ce42;
+    color: #036403;
+}
+
+
+.header-top-actions > section.win-close:hover{
+    background: #ff6159;
+    color: #800403;
+}
+
+.header-top-actions > section > i{
+    margin-top: 4px;
+}
+
+.header-top-contents{
+    width: auto;
+    float: left;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+.container{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.triangle {
+    position: relative;
+    margin: 70px auto;
+    width: 25px;
+    cursor: pointer;
+    transition: 1s linear 0s;
+    -ms-overflow-style: scrollbar;
+    -webkit-app-region:drag;
+}
+
+.triangle:hover{
+    opacity: .3;
+}
+
+.triangle div {
+    height: 0;
+    width: 0;
+    position: relative;
+}
+.triangle div:before, .triangle div:after {
+    content: "";
+    display: block;
+    position: absolute;
+}
+.triangle div:first-child {
+    border-left: 25px #b5274a solid;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin-top: 10px;
+}
+.triangle div:first-child:before {
+    border-right: 25px #fe4bad solid;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    left: -50px;
+    top: -12px;
+}
+
+.triangle div:first-child:after {
+    border-right: 25px rgb(186, 86, 184) solid;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    #box-shadow: 0px 10px 3px rgba(1,1,1,.2);
+    left: -25px;
+    top: -24px;
+    z-index: 1;
+}
+
+.triangle div:last-child {
+    border-left: 27px #f7931d solid;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin-top: -47px;
+    margin-left: -15px;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+
+.triangle div:last-child:after {
+    border-right: 27px #ffc000 solid;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    left: -27px;
+    top: -24px;
+    z-index: 1;
+    box-shadow: 0px 10px 3px rgba(1,25,1,.1);
+}
+
+/*.triangle div:last-child:before {*/
+    /*border-right: 25px #ee5923 solid;*/
+    /*border-top: 10px solid transparent;*/
+    /*border-bottom: 10px solid transparent;*/
+    /*left: -10px;display: none;*/
+    /*top: -10px;*/
+/*}*/
+
+.anim .triangle div:first-child {
+    -webkit-animation: f 1.2s alternate ease-in;
+    -moz-animation: f 1.2s alternate ease-in;
+    animation: f 1.2s alternate ease-in;
+}
+.anim .triangle div:first-child:before {
+    -webkit-animation: fb 1.2s alternate ease-in;
+    -moz-animation: fb 1.2s alternate ease-in;
+    animation: fb 1.2s alternate ease-in;
+}
+.anim .triangle div:first-child:after {
+    -webkit-animation: fa 1.2s alternate ease-in;
+    -moz-animation: fa 1.2s alternate ease-in;
+    animation: fa 1.2s alternate ease-in;
+}
+.anim .triangle div:last-child {
+    -webkit-animation: l 1s alternate ease-out;
+    -moz-animation: l 1s alternate ease-out;
+    animation: l 1s alternate ease-out;
+}
+.anim .triangle div:last-child:before {
+    -webkit-animation: lb 1s alternate ease-out;
+    -moz-animation: lb 1s alternate ease-out;
+    animation: lb 1s alternate ease-out;
+}
+.anim .triangle div:last-child:after {
+    -webkit-animation: la 1s alternate ease-out;
+    -moz-animation: la 1s alternate ease-out;
+    animation: la 1s alternate ease-out;
 }

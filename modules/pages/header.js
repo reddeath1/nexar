@@ -7,8 +7,8 @@ let remote = require('electron').remote;
 class headerUI{
 
     constructor(){
-        this.headerTopUi();
-        this.mainHeaderUi();
+        this.headerTopUI();
+        this.mainHeaderUI();
         this.headerActions();
         this.init();
     }
@@ -22,12 +22,10 @@ class headerUI{
             let width = winIn.getSize()[0];
 
             if (!winIn.isMaximized()){
-                main.style.width = 65+"%";
+                main.style.width = 70+"%";
             }else{
-                main.style.width = 81.45+"%";
+                main.style.width = 84+"%";
             }
-
-            console.log(winIn.isMaximized());
         });
 
     }
@@ -37,14 +35,21 @@ class headerUI{
         return path.join(__dirname,page);
     }
 
-    headerTopUi(){
-        let ui = ["<section class='header-top-content'>" +
+    headerTopUI(){
+        let ui = ["<section class='header-top-contents'>" +
+            "<h1>Dashboard</h1>" +
+            "</section>" +
+            "" +
+            "<section class='header-top-actions'>" +
             "<section class='win-minimize'>" +
-            "<img src='"+this.url('../../views/images/logos/minimize.png')+"'></section>" +
+            "<i class='fa fa-minus'></i>" +
+            "</section>" +
             "<section class='win-maximize'>" +
-            "<img src='"+this.url('../../views/images/logos/fullscreen.png')+"'></section>" +
+            "<i class='fa fa-sort win-m-left'></i>" +
+            "</section>" +
             "<section class='win-close'>" +
-            "<img src='"+this.url('../../views/images/logos/close.png')+"'></section>" +
+            "<i class='fa fa-times'></i>" +
+            "</section>" +
             "</section>"],
             header = document.querySelector(".main-top-header");
 
@@ -80,10 +85,20 @@ class headerUI{
          }
     }
 
-    mainHeaderUi(){
-        const header = document.querySelector("header");
+    headerLogoUI(){
+         return "<div class=\"triangle anim\" title='cectron'>" +
+             "    <div></div>" +
+             "    <div></div>" +
+             "</div>";
+    }
 
-        header.innerHTML = "Hell yaaaaaaa!";
+    mainHeaderUI(){
+        const ui = ["<section class='main-header'>" +
+            this.headerLogoUI()
+            + "</section>"],
+            header = document.querySelector("header");
+
+        header.innerHTML = ui[0];
     }
 }
 
