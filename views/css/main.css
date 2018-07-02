@@ -188,7 +188,11 @@ h1,h2,h3,h4,h5,h6{
 
 
 .welcome-note > h1{
-    font-weight: bold;
+    font-size: 30px;
+}
+
+.welcome-note > p{
+    font-size: 19px;
 }
 
 a {
@@ -196,18 +200,25 @@ a {
 }
 
 h1, h2, h3, h4 {
-    margin: 0;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin:10px 0;
+}
+
+.wel-menu-wraper{
+    width:80%;
+    float: left;
+    margin: 50px auto;
+    height: auto;
+    position: relative;
 }
 
 .menu {
     -webkit-filter: url("#shadowed-goo");
     filter: url("#shadowed-goo");
+    text-align: center;
 }
 
 .menu-item, .menu-open-button {
-    background: #ff4081;
+    background: #fe4bad;
     border-radius: 100%;
     width: 80px;
     height: 80px;
@@ -272,16 +283,14 @@ h1, h2, h3, h4 {
 }
 
 .menu {
-    position: absolute;
-    left: 50%;
-    margin-left: -190px;
     padding-top: 20px;
     padding-left: 190px;
-    width: 380px;
-    height: 250px;
+    width: auto;
+    margin: 50px auto;
+    height: auto;
     box-sizing: border-box;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .menu-item:hover {
