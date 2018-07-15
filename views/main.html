@@ -30,7 +30,7 @@
                     <a href="#" class="menu-item">
                         <i class="fa fa-bar-chart" aria-hidden="true"></i>
                     </a>
-                    <a href="#" class="menu-item"> <i class="fa fa-user-plus"></i> </a>
+                    <a href="#" onclick="return false" class="menu-item add-user"> <i class="fa fa-user-plus"></i> </a>
                     <a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
                     <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
                     <a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
@@ -45,6 +45,7 @@
 <script>
     const {headerUI} = require('../modules/pages/header').default;
     new headerUI();
+    require('../views/js/main');
 </script>
 
 </body>

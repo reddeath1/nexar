@@ -4,7 +4,6 @@ const path = require('path');
 const {BrowserWindow,app} = electron;
 let win,splash;
 
-
 function makeSplash(){
     splash = new BrowserWindow({
         width:500,
@@ -25,7 +24,7 @@ function makeSplash(){
 
     //win.webContents.openDevTools();
 
-    console.log(path.join(__dirname,'../splash/main.html'))
+    console.log(path.join(__dirname,'../splash/main.html'));
 
     //splash.webContents.openDevTools();
 
@@ -40,14 +39,13 @@ function makeSplash(){
 
 }
 
-function mainWindow(){
+function mainWindow()
+{
     win = new BrowserWindow({
         width: 800,
         height: 600,
-
         minHeight:600,
         minWidth:800,
-
         show:false,
         frame:false,
         icon: path.join(__dirname, './views/images/logos/logo.ico')
@@ -56,9 +54,8 @@ function mainWindow(){
     win.setMenu(null);
     win.loadURL(path.join(__dirname, "./views/main.html"));
 
-
     // Open the DevTools.
-    //win.webContents.openDevTools();
+    win.webContents.openDevTools();
 
     // Emitted when the window is closed.
     win.on("closed", () => {
