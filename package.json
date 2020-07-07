@@ -21,7 +21,7 @@
   "author": "Frank Galos <frankslayer1@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^2.0.2",
+    "electron": "^7.2.4",
     "electron-watch": "^1.0.8",
     "node-es6": "^0.3.1"
   },
